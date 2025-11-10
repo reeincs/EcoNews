@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    background-image: url(../img/login.png);
+    width: auto;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px;
+    border-bottom: white;
+}
+.logo{
+    width: 90px;
+}
+.cm{
+    display: flex;
+    gap: 50px;
+}
+.cmitem{
+    font-family: 'Sarala', sans-serif;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px;
+}
+.cmitem:hover{
+    color: #00F0FF;
+}
+.usuario{
+    margin-left: 200px;
+}

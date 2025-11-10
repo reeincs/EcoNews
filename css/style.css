@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #3e92a5;
+    position: relative;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px;
+    border-bottom: white;
+    background-color: #1F6F81;
+    gap: 20px;
+}
+.cabecalho .logo {
+    transition: transform 0.3s ease;
+}
+  
+.cabecalho .logo:hover {
+    transform: scale(1.2);
+}
+  
+.logo {
+    width: 40px;
+}
+.cm {
+    display: flex;
+    gap: 20px;
+}
+
+.cmitem {
+    color: #fff2e7;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+.cmitem:hover{
+    color: #00F0FF;
+}
+
+.usuario {
+    width: 30px;
+}
+.banner-botao{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+.banner{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    opacity: 70%;
+}
+.botao-wripper{
+    position: absolute;
+    z-index: 1;
+    padding-bottom: 30px;
+}
+.botao{
+    width: 100px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: #1F6F81;
+    border: none;
+}
+.botao a{
+    color: white;
+    text-decoration: none;
+}
+.botao:hover{
+    background-color: #1B393A;
+}
+.div-pai{
+    display: flex;
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+.caixa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff2e7;
+    border-radius: 5px;
+}
+.div-pai a{
+    text-decoration: none;
+    color: #1B393A;
+}
+.caixa:hover{
+    background-color: #1F6F81;
+    color: #fff2e7;
+}
+.caixa {
+    overflow: hidden;
+}
+.caixa img {
+    transition: transform 0.3s ease;
+}
+ 
+.caixa:hover img {
+    transform: scale(1.2);
+}
+  
+h3{
+    display: flex;
+    justify-content: center;
+    color: #fff2e7;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+h6{
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.paginacao{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+.rodape{
+    background-color: #1B393A;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px;
+    width: 100%;
+}
+.rodape-conteudo{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+}
+.tabela{
+    color: #00F0FF;
+}
+.coluna{
+    padding-left: 60px;
+}
+.link-rodape{
+    color: #00F0FF;
+    text-decoration: none;
+}
+.link-rodape:hover{
+    color: white;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+}
+.botao-faq{
+    background: none;
+    border: none;
+}
+.pf a{
+    color: #00F0FF;
+    text-decoration: none;
+}
+/* .titulo-redes{
+    color: #00F0FF;
+}
+.logos{
+    display: flex;
+    width: 40px;
+    flex-direction: row;
+} */
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.logos a {
+    display: block;
+}
+
+.logos img {
+    width: 30px;
+    height: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .redes-sociais {
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .logos {
+        gap: 5px;
+    }
+
+    .logos img {
+        width: 25px;
+        height: 25px;
+    }
+}
+.direitos-autorais {
+    text-align: center;
+    color: #ffffff;
+
+    padding-top: 20px;
+    width: 100%;
+    height: 20px;
+    margin: 0;
+    
+}
+/* Adicione aqui seus estilos CSS personalizados */
+
+.cabecalho .dropdown:hover .menu-hrv {
+    display: block;
+}
+li{
+    list-style: none;
+}
+.menu-hrv {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.menu-hrv li {
+    display: block;
+}
+
+.menu-hrv li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.menu-hrv li a:hover {
+    background-color: #f5f5f5;
+}
+.direitos-autorais {
+    text-align: center;
+    color: #ffffff;
+
+    padding-top: 20px;
+    width: 100%;
+    height: 20px;
+    margin: 0;
+    
+}
